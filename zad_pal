@@ -1,0 +1,10 @@
+def pali(x):
+  return x == x[::-1]
+
+print(pali('lol'))
+print(pali('marcin'))
+print(pali('kajak'))
+print(pali('potop'))
+print(pali('python'))
+print(pali('kodilla'))
+print(pali('radar'))
